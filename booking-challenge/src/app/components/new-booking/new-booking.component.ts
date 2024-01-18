@@ -34,9 +34,9 @@ export class NewBookingComponent implements OnInit {
     } else {
       localStorage.setItem("myBookings", JSON.stringify([this.newBooking.value]));  
     }
-    this.goToHome();
+    this.goTo('booking-list');
   }
-  goToHome() {
-    this.router.navigate(['booking-list']);
+  goTo(route:string) {
+    this.router.navigate([route]);
   }
 }
