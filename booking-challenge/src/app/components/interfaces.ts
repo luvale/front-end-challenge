@@ -3,7 +3,7 @@ export interface Hours {
 }
 
 export interface Booking {
-  date: string;
+  date: Date;
   destination: string;
   hour: string;
   numPassengers: number;
