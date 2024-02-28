@@ -17,3 +17,4 @@ A bus company wants to allow their users to book online tickets. Please help the
 ## Technology stack:
 * Angular, TypeScript
 * Angular Material UI
+* Jasmine y Karma
